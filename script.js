@@ -9,7 +9,7 @@ const form = document.querySelector('.new_form')
 //form 태그 안에 input에서 enter를 하거나, 버튼을 클릭했을때 -> submit작동
 //submit 작동하면 페이지를 리로드함
 form.addEventListener('submit',(event)=>{
-  event.preventDefault(); //자동적인 행동 삭제
+  event.preventDefault(); // 브라우저의 자동적인 행동 삭제
   onAdd();
 })
 
