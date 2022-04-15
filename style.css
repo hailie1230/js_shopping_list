@@ -12,12 +12,14 @@
 
 /* 에스코어 드림 score (100,200,300,400,500,600,700,800,900)*/
 @import url('https://webfontworld.github.io/score/SCoreDream.css');
-
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
   background-color: #ede7f6;
-  box-sizing: border-box;
+  
 }
 .shopping_list {
   max-width: 500px;
@@ -81,10 +83,10 @@ h1 {
 .item_row.checked {
   background-color: rgba(0,0,0,0.3);
 }
-input.check_box {}
 span.item_name {
   padding: 0 10px;
-  cursor: pointer;
+  display: inline-block;
+  width: 90%;
 }
 span.list_price {
   text-align: right;
@@ -101,6 +103,9 @@ button.item_delete {
   position: absolute;
   right: 0;
   padding: 5px;
+  width: 10%;
+  cursor: pointer;
+  /* background-color: #a094b7; */
 }
 button.item_delete:hover{
   background-color: #ffccbc;
