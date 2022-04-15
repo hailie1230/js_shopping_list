@@ -1,4 +1,4 @@
-# sc_shopping_list
+# shopping list
 
 ## ver1 
 ** script **
