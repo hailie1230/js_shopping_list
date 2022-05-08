@@ -1,5 +1,24 @@
+![ogImg01](https://user-images.githubusercontent.com/66510673/167295970-05d115a2-ad70-4320-8b66-814cdfb88774.jpg)
+
 # shopping list - ver1 
-**script**
+### **Live Demo :** https://hailie1230.github.io/js_shopping_list/index01.html
+
+## **Description**
+- input안에 텍스트를 입력하면 동적으로 리스트를 생성해주는 미니 프로젝트입니다.
+
+## **How to play**
+**리스트 추가**
+
+![리스트-추가](https://user-images.githubusercontent.com/66510673/167297392-3e7046a8-16ab-4675-802c-5b56ffb6abac.gif)
+- 입력창에 내용을 입력한 뒤 Enter 또는 + 버튼을 클릭하여 리스트를 추가한다.
+
+**리스트 삭제**
+
+![리스트-삭제](https://user-images.githubusercontent.com/66510673/167297411-3a130dd1-4195-48dc-8fd1-d8bae9a02d49.gif)
+- 삭제하고 싶은 리스트 오른쪽에 휴지통 모양 버튼을 클릭하여 리스트를 삭제한다.
+
+
+## **Script**
 1. 브라우저 자동적인 행동 삭제 
 : form 태그 안 input에서 enter를 하거나, 버튼을 클릭했을때 -> submit작동으로 인해 페이지 리로드 된다. 
 이 리로드 되는 자동적인 행위를 삭제 함. 
