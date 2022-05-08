@@ -78,6 +78,7 @@ h1 {
   position: relative;
   padding: 5px 0;
   border-bottom: 1px solid #b39ddb;
+  cursor: pointer;
 }
 
 .item_row.checked {
@@ -133,6 +134,13 @@ button.item_delete:hover{
 }
 
 @media screen and (max-width: 800px){
+  .shopping_list {
+    margin: 10px auto;
+  }
+  h1 {
+    font-size: 20px;
+    padding: 15px 0;
+  }
   .list_item_making input {
     font-size: 18px;
     width: 43%;
@@ -140,10 +148,22 @@ button.item_delete:hover{
   .list_item_making button {
     font-size: 20px;
   }
+  .list_item_box{
+    padding-top: 0;
+  }
+  .item_row {
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  button.item_delete {
+    top: 0;
+    padding: 10px;
+  }
   .list_item_result {
     font-size: 16px;
   }
   .item_total {
     font-size: 18px;
   }
+
 }

@@ -39,6 +39,7 @@ function createItem(text){
   return itemRow;
 };
 
+
 addBtn.addEventListener('click', () => {
   onAdd();
 });
@@ -49,10 +50,26 @@ input.addEventListener('keypress', event => {
   }
 });
 
-items.addEventListener('click', event => {
-  const id = event.target.dataset.id;
-  if(id){
-    const toBeDeleted = document.querySelector(`.item_row[data-id="${id}"]`);
-    toBeDeleted.remove();
-  }
-})
+// items.addEventListener('click', e => {
+//   if(e.target.classList.contains('item_name')){
+//     onClick(e)
+//   }
+
+//   // console.log('items click');
+//   // const id = event.target.parentNode.id;
+//   // console.log(id);
+//   // if(id){
+//   //   const toBeDeleted = document.querySelector(`.item_row[data-id="${id}"]`);
+//   //   toBeDeleted.remove();
+//   // }
+  
+// })
+
+// onClick (e) {
+  
+//   if(e.target.parentNode.classList.contains('checked')){
+//     e.target.parentNode.classList.remove('checked');
+//   } else {
+//     e.target.parentNode.classList.add('checked');
+//   }
+// }
