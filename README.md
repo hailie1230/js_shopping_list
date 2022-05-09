@@ -6,7 +6,7 @@
 ## **Description**
 - input안에 텍스트를 입력하면 동적으로 리스트를 생성해주는 미니 프로젝트입니다.
 
-## **How to play**
+## **How to use**
 **리스트 추가**
 
 ![리스트-추가](https://user-images.githubusercontent.com/66510673/167297392-3e7046a8-16ab-4675-802c-5b56ffb6abac.gif)
